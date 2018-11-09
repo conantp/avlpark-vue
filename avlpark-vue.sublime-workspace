@@ -1,0 +1,1539 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"speec",
+				"speechinnoise"
+			],
+			[
+				"getM",
+				"getMR"
+			],
+			[
+				"getH",
+				"getHF"
+			],
+			[
+				"activ",
+				"active_talent"
+			],
+			[
+				"get_curr",
+				"get_current_user_id"
+			],
+			[
+				"get_user",
+				"get_user_meta"
+			],
+			[
+				"active",
+				"activeRow"
+			],
+			[
+				"summ",
+				"summaryTextHTML"
+			],
+			[
+				"summary",
+				"summaryText"
+			],
+			[
+				"check",
+				"check_for_deactivated_accounts"
+			],
+			[
+				"target",
+				"target_db"
+			],
+			[
+				"safety",
+				"safety_limit"
+			],
+			[
+				"calib",
+				"calibration_levels"
+			],
+			[
+				"fulltes",
+				"fulltest_mode"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"is_a",
+				"is_array"
+			],
+			[
+				"dest",
+				"destination_email"
+			],
+			[
+				"perform",
+				"performTokenReplacement"
+			],
+			[
+				"html",
+				"htmlspecialchars_decode"
+			],
+			[
+				"aggrega",
+				"aggregateFunction"
+			],
+			[
+				"aggre",
+				"aggregateFunction"
+			],
+			[
+				"group",
+				"groupcategory"
+			],
+			[
+				"inve",
+				"inventoryUpdate"
+			],
+			[
+				"in",
+				"inventory_item_id"
+			],
+			[
+				"emailCustomer",
+				"emailCustomerForWin"
+			],
+			[
+				"line",
+				"lineItem"
+			],
+			[
+				"chartLa",
+				"chartLabels"
+			],
+			[
+				"gapi",
+				"gapiReady"
+			],
+			[
+				"gap",
+				"gapiReady"
+			],
+			[
+				"sub",
+				"subitemsElm"
+			],
+			[
+				"ex",
+				"export"
+			],
+			[
+				"gr",
+				"grouptitle"
+			],
+			[
+				"targ",
+				"targetIndex"
+			],
+			[
+				"chartLabe",
+				"chartLabelLookup"
+			],
+			[
+				"spread",
+				"spreadsheetID"
+			],
+			[
+				"orderUp",
+				"orderUpdateStatus"
+			],
+			[
+				"as",
+				"forEachAsync"
+			],
+			[
+				"product",
+				"productPricePerTicket"
+			],
+			[
+				"bidValue",
+				"bidValuePerTicket"
+			],
+			[
+				"customer",
+				"customerUpdate"
+			],
+			[
+				"cu",
+				"customerUpdate"
+			],
+			[
+				"handleBi",
+				"handleBidLose"
+			],
+			[
+				"handle",
+				"handleBidWin"
+			],
+			[
+				"inv",
+				"inventory_quantity"
+			],
+			[
+				"produc",
+				"productPricePerTicket"
+			],
+			[
+				"wp_compan",
+				"wp_company_post_id"
+			],
+			[
+				"clas",
+				"className"
+			],
+			[
+				"groupBy",
+				"groupByText"
+			],
+			[
+				"byDate",
+				"byDateText"
+			],
+			[
+				"by",
+				"byDateText"
+			],
+			[
+				"chart",
+				"chartLabels"
+			],
+			[
+				"user",
+				"user_email"
+			],
+			[
+				"data",
+				"dataset"
+			],
+			[
+				"datef",
+				"dateAggregateFields"
+			],
+			[
+				"su",
+				"subitems"
+			],
+			[
+				"new",
+				"new_array"
+			],
+			[
+				"top_",
+				"top_level_keys"
+			],
+			[
+				"top",
+				"top_level_keys"
+			],
+			[
+				"agr",
+				"aggregateFields"
+			],
+			[
+				"date",
+				"date_field"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"admini",
+				"administrator"
+			],
+			[
+				"shipp",
+				"shipping_address"
+			],
+			[
+				"admi",
+				"administrator"
+			],
+			[
+				"admin",
+				"administrators"
+			],
+			[
+				"str_rep",
+				"str_replace"
+			],
+			[
+				"strip",
+				"stripos"
+			],
+			[
+				"filem",
+				"filemaker_src"
+			],
+			[
+				"redire",
+				"redirectUserAtCompletion"
+			],
+			[
+				"match",
+				"matching_companies"
+			],
+			[
+				"matc",
+				"matching_companies"
+			],
+			[
+				"previous_sea",
+				"previous_search_style"
+			],
+			[
+				"previous_s",
+				"previous_search_gender"
+			],
+			[
+				"age",
+				"age_range"
+			],
+			[
+				"previous",
+				"previous_search_age_range"
+			],
+			[
+				"wordpress_t",
+				"wordpress_talent_phone"
+			],
+			[
+				"fields",
+				"fields_changed"
+			],
+			[
+				"file",
+				"filemaker_src"
+			],
+			[
+				"fm_tale",
+				"fm_talent_id"
+			],
+			[
+				"wordpress",
+				"wordpress_talent_character"
+			],
+			[
+				"area",
+				"area_code"
+			],
+			[
+				"fm_talent",
+				"fm_talent_phones"
+			],
+			[
+				"getRe",
+				"getRelatedSet"
+			],
+			[
+				"proCo",
+				"procommPlaylistService"
+			],
+			[
+				"wp",
+				"wp_current_user_id"
+			],
+			[
+				"default_ac",
+				"default_account_flag"
+			],
+			[
+				"do_",
+				"do_lookup_company"
+			],
+			[
+				"exi",
+				"existing_company_fm_ids"
+			],
+			[
+				"existing",
+				"existing_company_fm_ids"
+			],
+			[
+				"existin",
+				"existing_companies"
+			],
+			[
+				"sync",
+				"syncSingleCompanyFromFMRecord"
+			],
+			[
+				"comp",
+				"company-name"
+			],
+			[
+				"array",
+				"array_diff"
+			],
+			[
+				"array_f",
+				"array_filter"
+			],
+			[
+				"elib",
+				"eligible_company_id"
+			],
+			[
+				"compan",
+				"company_id"
+			],
+			[
+				"doCo",
+				"doCompanySync"
+			],
+			[
+				"do_c",
+				"do_company_sync"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"right",
+				"right_worst"
+			],
+			[
+				"spl",
+				"splash"
+			],
+			[
+				"star",
+				"start_urls"
+			],
+			[
+				"buff",
+				"bufferSize"
+			],
+			[
+				"audio",
+				"audioContext"
+			],
+			[
+				"au",
+				"audioContext"
+			],
+			[
+				"function",
+				"function_exists"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/views/Home.vue",
+			"settings":
+			{
+				"buffer_size": 711,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/router.js",
+			"settings":
+			{
+				"buffer_size": 545,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/store.js",
+			"settings":
+			{
+				"buffer_size": 775,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 1124,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/main.js",
+			"settings":
+			{
+				"buffer_size": 363,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/ParkingDeck.vue",
+			"settings":
+			{
+				"buffer_size": 439,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"prettier",
+				"JsPrettier: Format Code"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"add package",
+				"Package Control: Add Repository"
+			],
+			[
+				"packa",
+				"Package Control: Discover Packages"
+			],
+			[
+				"linter",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"pack",
+				"Package Control: Discover Packages"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/conantp/Documents/Projects/node/avlpark-vue",
+		"/Users/conantp/Documents/Projects/node/avlpark-vue/src",
+		"/Users/conantp/Documents/Projects/node/avlpark-vue/src/assets",
+		"/Users/conantp/Documents/Projects/node/avlpark-vue/src/components",
+		"/Users/conantp/Documents/Projects/node/avlpark-vue/src/views"
+	],
+	"file_history":
+	[
+		"/Users/conantp/Documents/Projects/node/avlpark-vue/src/components/HelloWorld.vue",
+		"/Users/conantp/Documents/Projects/node/avlpark-vue/src/App.vue",
+		"/Users/conantp/Library/Application Support/Sublime Text 3/Packages/JsPrettier/JsPrettier.sublime-settings",
+		"/Users/conantp/Documents/Projects/node/avlpark-vue/src/main.js",
+		"/Users/conantp/Documents/Projects/node/avlpark-vue/node_modules/@vue/cli-service/generator/router/template/src/views/Home.vue",
+		"/Users/conantp/Documents/Projects/cloudaudiology-results/_site/debug_table/js/puretone.js",
+		"/Users/conantp/Documents/Projects/cloudaudiology-results/_includes/footer.html",
+		"/Users/conantp/Documents/Projects/cloudaudiology-results/_includes/header.html",
+		"/Users/conantp/Documents/Projects/cloudaudiology-results/debug_table/js/mcl.js",
+		"/Users/conantp/Documents/Projects/cloudaudiology-results/debug_table/js/speechrec.js",
+		"/Users/conantp/Documents/Projects/cloudaudiology-results/debug_table/js/speechinnoise.js",
+		"/Users/conantp/Documents/Projects/cloudaudiology-results/debug_table/js/intro.js",
+		"/Users/conantp/Documents/Projects/cloudaudiology-results/debug_table/js/main.js",
+		"/Users/conantp/Documents/Projects/node/avlpark-data/README.md",
+		"/Users/conantp/Documents/Projects/node/avlpark/public/data/keen_data.json",
+		"/Users/conantp/Documents/Projects/node/avlpark/public/data/keen_data_long.json",
+		"/Users/conantp/Documents/Projects/node/avlpark/views/stats.jade",
+		"/Users/conantp/Documents/Projects/cloudaudiology-results/js/main.js",
+		"/Users/conantp/Documents/Projects/pantheon/state-of-black-asheville/wp-content/themes/sage-8.5.4/assets/scripts/intercom.js",
+		"/Users/conantp/Documents/Projects/pantheon/procomm-voices/wp-content/themes/sage-8.5.1/templates/talent-table.php",
+		"/Users/conantp/Documents/Projects/pantheon/procomm-voices/wp-includes/functions.php",
+		"/Users/conantp/Library/Caches/Transmit/FA7F2BA2-E106-4DC9-9A54-1DB71B669E2D/warhawk.arvixe.com/home/alanbroo/public_html/.htaccess",
+		"/Users/conantp/Documents/Projects/VoiceJungle/www/js/aloha/plugins/extra/speak/lib/speak.js",
+		"/Users/conantp/Documents/Projects/cloudaudiology-results/debug_table/js/puretone.js",
+		"/Users/conantp/Documents/Projects/cloudaudiology-results/_includes/questions.html",
+		"/Users/conantp/Documents/Projects/cloudaudiology-results/_site/debug_table/js/mcl.js",
+		"/Users/conantp/Documents/Projects/pantheon/procomm-voices/wp-content/themes/sage-8.5.1/assets/scripts/main.js",
+		"/Users/conantp/Documents/Projects/pantheon/procomm-voices/wp-content/themes/sage-8.5.1/templates/content-onboarding.php",
+		"/Users/conantp/Documents/Projects/pantheon/procomm-voices/wp-content/themes/sage-8.5.1/templates/content-page-choose-account.php",
+		"/Users/conantp/Documents/Projects/pantheon/one-asheville/wp-content/plugins/buddypress/bp-core/deprecated/1.9.php",
+		"/Users/conantp/Documents/Projects/pantheon/one-asheville/wp-content/plugins/buddypress/bp-activity/bp-activity-notifications.php",
+		"/Users/conantp/Documents/Projects/pantheon/one-asheville/wp-content/themes/flat-sassy-boots/js/users-app.js",
+		"/Users/conantp/Documents/Projects/node/avlpark-data/gke.yml",
+		"/Users/conantp/Documents/Projects/VoiceJungle/config/config.php",
+		"/Users/conantp/Documents/Projects/soba-charts/react/soba-visualization-component/demo/dist/index.html",
+		"/Users/conantp/Desktop/One Asheville Old Accounts.txt",
+		"/Users/conantp/Downloads/keplergl.json",
+		"/Users/conantp/Documents/Projects/pantheon/one-asheville/wp-content/plugins/GoogleAppsDirectory-enterprise/core/core_google_apps_directory.php",
+		"/Users/conantp/Documents/Projects/pantheon/one-asheville/wp-includes/pluggable.php",
+		"/Users/conantp/Documents/Projects/cloudaudiology-results/debug_table/js/questions.js",
+		"/Users/conantp/Documents/Projects/cloudaudiology-results/pcp-results.html",
+		"/Users/conantp/Documents/Projects/cloudaudiology-results/debug_table/js/common.js",
+		"/Users/conantp/Documents/Projects/cloudaudiology-results/_includes/puretone.html",
+		"/Users/conantp/Documents/Projects/cloudaudiology-results/_includes/srt.html",
+		"/Users/conantp/Documents/Projects/cloudaudiology-results/_includes/speechrec.html",
+		"/Users/conantp/Documents/Projects/cloudaudiology-results/_includes/intro-start.html",
+		"/Users/conantp/Documents/Projects/cloudaudiology-results/fulltest.html",
+		"/Users/conantp/Documents/Projects/cloudaudiology-results/debug_table/js/tests.js",
+		"/Users/conantp/Documents/Projects/cloudaudiology-results/debug_table/intro.html",
+		"/Users/conantp/Documents/Projects/pantheon/procomm-voices/wp-content/themes/sage-8.5.1/templates/content-page-account.php",
+		"/Users/conantp/Documents/Projects/pantheon/procomm-voices/wp-content/themes/sage-8.5.1/acf-json/group_595298778975f.json",
+		"/Users/conantp/Documents/Projects/pantheon/procomm-voices/wp-content/themes/sage-8.5.1/templates/content-account-overview.php",
+		"/Users/conantp/Documents/Projects/node/simplicity-graphql-server/api/development/development_schema.js",
+		"/Users/conantp/Documents/Projects/node/simplicity-graphql-server/api/development/dsd_sla_schema.js",
+		"/Users/conantp/Documents/Projects/node/simplicity-graphql-server/api/simplicity_resolvers.js",
+		"/Users/conantp/Documents/Projects/node/goodtix/package.json",
+		"/Users/conantp/Documents/Projects/soba-charts/react/soba-visualization-component/googlestup.js",
+		"/Users/conantp/Downloads/credentials.json",
+		"/Users/conantp/Documents/Projects/soba-charts/react/soba-visualization-component/demo/src/jQuery('.soba-visualization').each(function(){",
+		"/Users/conantp/Documents/Projects/soba-charts/react/soba-visualization-component/src/SobaVisualization.js",
+		"/Users/conantp/Documents/Projects/soba-charts/react/soba-visualization-component/src/SobaTable.js",
+		"/Users/conantp/Documents/Projects/soba-charts/react/soba-visualization-component/es/SobaTable.js",
+		"/Users/conantp/Documents/Projects/soba-charts/react/soba-visualization/src/SobaVisualization.js",
+		"/Users/conantp/Documents/Projects/node/goodtix/Dockerfile",
+		"/Users/conantp/Documents/Projects/node/goodtix/index.js",
+		"/Users/conantp/Documents/Projects/node/goodtix/node_modules/shopify-api-node/resources/order.js",
+		"/Users/conantp/Documents/Projects/node/goodtix/node_modules/shopify-api-node/index.js",
+		"/Users/conantp/Documents/Projects/cloudaudiology-results/debug_table/bower_components/angular/angular.min.js",
+		"/Users/conantp/Documents/Projects/pantheon/procomm-voices/wp-content/themes/sage-8.5.1/lib/extras.php",
+		"/Users/conantp/Documents/Projects/pantheon/procomm-voices/wp-content/themes/sage-8.5.1/angular-templates/login.html",
+		"/Users/conantp/Documents/Projects/pantheon/procomm-voices/wp-content/themes/sage-8.5.1/angular-templates/playlist.html",
+		"/Users/conantp/Documents/Projects/pantheon/procomm-voices/wp-content/themes/sage-8.5.1/gulpfile.js",
+		"/Users/conantp/Documents/Projects/pantheon/procomm-voices/wp-content/themes/sage-8.5.1/lib/setup.php",
+		"/Users/conantp/Documents/Projects/pantheon/procomm-voices/wp-includes/theme-compat/header.php",
+		"/Users/conantp/Documents/Projects/pantheon/procomm-voices/wp-content/themes/sage-8.5.1/angular-templates/share.html",
+		"/Users/conantp/Documents/Projects/soba-charts/react/soba-visualization/package.json",
+		"/Users/conantp/Documents/Projects/soba-charts/react/soba-visualization/src/SobaTable.js",
+		"/Users/conantp/Documents/Projects/soba-charts/react/soba-visualization/src/index.js",
+		"/Users/conantp/Documents/Projects/soba-charts/react/soba-visualization/lib/SobaTable.js",
+		"/Users/conantp/Documents/Projects/soba-charts/react/soba-visualization/lib/index.js",
+		"/Users/conantp/Documents/Projects/soba-charts/react/soba-visualization/es/index.js",
+		"/Users/conantp/Documents/Projects/soba-charts/react/soba-visualization/css/SobaVisualization.css",
+		"/Users/conantp/Documents/Projects/soba-charts/react/soba-visualization/css/SobaVisualization.scss",
+		"/Users/conantp/Documents/Projects/soba-charts/react/soba-visualization/es/SobaTable.js",
+		"/Users/conantp/Documents/Projects/soba-charts/react/soba-visualization/src/SobaVisualization.scss",
+		"/Users/conantp/Documents/Projects/pantheon/procomm-voices/wp-content/themes/sage-8.5.1/templates/company-profile.php",
+		"/Users/conantp/Documents/Projects/pantheon/procomm-voices/wp-login.php",
+		"/Users/conantp/Documents/Projects/pantheon/procomm-voices/wp-content/themes/sage-8.5.1/assets/scripts/login.js",
+		"/Users/conantp/Documents/Projects/pantheon/procomm-voices/wp-content/themes/sage-8.5.1/page-account.php",
+		"/Users/conantp/Documents/Projects/pantheon/procomm-voices/wp-content/themes/sage-8.5.1/node_modules/form-data/lib/form_data.js",
+		"/Users/conantp/Documents/Projects/soba-charts/soba_charts_vue/dist/demo.html",
+		"/Users/conantp/Documents/Projects/node/simplicity-graphql-server/api/neighborhood/neighborhood_resolvers.js",
+		"/Users/conantp/Documents/Projects/node/simplicity-graphql-server/api/stats/stats_schema.js",
+		"/Users/conantp/Documents/Projects/node/simplicity-graphql-server/api/development/development_resolvers.js",
+		"/Users/conantp/Documents/Projects/node/simplicity-graphql-server/gke.yml",
+		"/Users/conantp/Documents/Projects/node/simplicity-graphql-server/api/stats/stats_resolvers.js",
+		"/Users/conantp/Documents/Projects/node/simplicity-graphql-server/api/simplicity_schema.js",
+		"/Users/conantp/Documents/Projects/node/simplicity-graphql-server/api/crime/crime_schema.js",
+		"/Users/conantp/Documents/Projects/node/simplicity-graphql-server/api/crime/crime_resolvers.js",
+		"/Users/conantp/Documents/Projects/node/simplicity-graphql-server/api/finance/pcard/pcard_schema.js",
+		"/Users/conantp/Documents/Projects/node/simplicity-graphql-server/api/finance/pcard/pcard_resolvers.js",
+		"/Users/conantp/Documents/Projects/node/simplicity-graphql-server/api/finance/finance_resolvers.js",
+		"/Users/conantp/Documents/Projects/node/simplicity-graphql-server/api/finance/finance_schema.js",
+		"/Users/conantp/Documents/Projects/node/simplicity-graphql-server/deployment/devdeploy.sh",
+		"/Users/conantp/Documents/Projects/node/simplicity-graphql-server/api/internal/index.js",
+		"/Users/conantp/Documents/Projects/node/simplicity-graphql-server/api/municipalities/municipalities_schema.js",
+		"/Users/conantp/Documents/Projects/node/simplicity-graphql-server/api/internal/internal_resolvers.js",
+		"/Users/conantp/Documents/Projects/pantheon/one-asheville/wp-content/plugins/coa-custom-wp-rss-feed-to-post/wp-rss-feed-to-post.php",
+		"/Users/conantp/Documents/Projects/node/simplicity-graphql-server/node_modules/firebase/database.js",
+		"/Users/conantp/Documents/Projects/node/simplicity-graphql-server/api/budget/budget_resolvers.js",
+		"/Users/conantp/Documents/Projects/node/simplicity-graphql-server/api/address/address_resolvers.js",
+		"/Users/conantp/Documents/Projects/node/simplicity-graphql-server/resolvers.js",
+		"/Users/conantp/Documents/Projects/node/simplicity-graphql-server/schema.js",
+		"/Users/conantp/Documents/Projects/pantheon/procomm-voices/wp-content/plugins/procomm-filemaker/vendor/filemaker/FileMaker/Command/Find.php",
+		"/Users/conantp/Documents/Projects/pantheon/procomm-voices/wp-content/plugins/procomm-filemaker/vendor/airmoi/filemaker/src/FileMaker.php",
+		"/Users/conantp/Documents/Projects/pantheon/procomm-voices/listen_profile.php",
+		"/Users/conantp/Documents/Projects/pantheon/procomm-voices/wp-content/themes/sage-8.5.1/assets/scripts/angular.js",
+		"/Users/conantp/Documents/Projects/pantheon/procomm-voices/wp-content/plugins/procomm-filemaker/vendor/airmoi/filemaker/src/Command/CompoundFind.php",
+		"/Users/conantp/Documents/Projects/pantheon/procomm-voices/wp-content/themes/sage-8.5.1/lib/WP_Route.php",
+		"/Users/conantp/Documents/Projects/pantheon/procomm-voices/wp-content/themes/sage-8.5.1/functions.php",
+		"/Users/conantp/Documents/Projects/pantheon/procomm-voices/pantheon.upstream.yml",
+		"/Users/conantp/Library/Caches/Transmit/B72FB7B6-15BF-4B53-BE24-0B7E140C27A8/ftp.blackirishapps.com/var/www/vhosts/blackirishapps.com/httpdocs/order/shopifycsv/shopifycsv.php",
+		"/Users/conantp/Documents/Projects/procomm-voices/wp-content/themes/sage-8.5.1/templates/content-onboarding.php",
+		"/Users/conantp/Documents/Projects/procomm-voices/wp-content/themes/sage-8.5.1/node_modules/node-sass/test/fixtures/include-files/file-not-processed-by-loader.scss",
+		"/Users/conantp/Documents/Projects/procomm-voices/wp-content/themes/sage-8.5.1/assets/scripts/angular-services.js",
+		"/Users/conantp/Documents/Projects/procomm-voices/wp-content/themes/sage-8.5.1/lib/extras.php",
+		"/Users/conantp/Documents/Projects/procomm-voices/wp-content/themes/sage-8.5.1/templates/content-page-account.php",
+		"/Users/conantp/Documents/Projects/procomm-voices/wp-content/themes/sage-8.5.1/assets/scripts/talent-search.js"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"x",
+			"HellowWorld",
+			"logo.png",
+			"logo",
+			"tabs",
+			"prettier",
+			"indent",
+			"tab"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/views/Home.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 711,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								294,
+								242
+							]
+						],
+						"settings":
+						{
+							"SL.106.region_keys":
+							[
+								"SL.eslint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.eslint.Highlights.|f96b8851bf8aa9b8f6da243b891a4efa86ea0f4ecd2df0d3bf7bfd36a647dbf8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.eslint.Highlights.|c7ca9b9f8881b5e139d523658c3acecd9d670a9f814d08b7d260b3d319a70a24|region.yellowish markup.warning.sublime_linter|32",
+								"SL.eslint.Highlights.|1ac3b60e267a1d1d48a4496712d4ab4bd70989b1d9cbbed25e8a4502707bb8fe|region.yellowish markup.warning.sublime_linter|32",
+								"SL.eslint.Highlights.|8492a2025d2818fecd0d09385f211fc6ae1b571b833fe604e754d830007b4a74|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/router.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								151,
+								151
+							]
+						],
+						"settings":
+						{
+							"SL.113.region_keys":
+							[
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/store.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 775,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								508,
+								508
+							]
+						],
+						"settings":
+						{
+							"SL.114.region_keys":
+							[
+								"SL.eslint.Highlights.|886f3705c785d412ba069de16e26350d131741b28e66c38afd6347849854bee1|region.redish markup.error.sublime_linter|32",
+								"SL.eslint.Highlights.|cf2311801c52bbaa87ad48241a2c7e00c84491dfb5e2d7109d6acfc2406d2efd|region.redish markup.error.sublime_linter|32",
+								"SL.eslint.Gutter.|region.redish markup.error.sublime_linter|dot",
+								"SL.eslint.Highlights.|e97eaaa7b79fc68e09ebdbc521eaa9238bc8f5cb95366b62fa2d6f2f43ffd130|region.redish markup.error.sublime_linter|32",
+								"SL.eslint.Highlights.|8bf124f840d1daf9bdec915662b5baa0179426f91c1ff825722914b2329c896d|region.redish markup.error.sublime_linter|32",
+								"SL.eslint.Highlights.|d3501e616be74f14344bae1d1c54b2cc1475fb806c381e53e9e98604350b57f1|region.redish markup.error.sublime_linter|32",
+								"sublime_linter.protected_regions"
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1124,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								274,
+								287
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 363,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								294,
+								294
+							]
+						],
+						"settings":
+						{
+							"SL.115.region_keys":
+							[
+								"SL.eslint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.eslint.Highlights.|8c7adfecced5efa51524c8b3aa9c84f39b23670951c37401d3977341385ea065|region.yellowish markup.warning.sublime_linter|32",
+								"SL.eslint.Highlights.|da14ac460c1f8f88a18f9ab2d201f3ef1ba46656967e0f4111447e8ddb29cc30|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.eslint.Highlights.|b86abb4740eb77f3cf44be0536753da2b7986ff4548495018d3f917438f0e580|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/components/ParkingDeck.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 439,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								272,
+								272
+							]
+						],
+						"settings":
+						{
+							"SL.108.region_keys":
+							[
+								"SL.eslint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"sublime_linter.protected_regions",
+								"SL.eslint.Highlights.|da0e1804b4a5294bcf6764928d4d5aefc9492def36da5d1806bfd316f70a15eb|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "avlpark-vue.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"onboarding",
+				"wp-content/themes/sage-8.5.1/templates/content-onboarding.php"
+			],
+			[
+				"extras",
+				"wp-content/themes/sage-8.5.1/lib/extras.php"
+			],
+			[
+				"puretone.js",
+				"debug_table/js/puretone.js"
+			],
+			[
+				"footer",
+				"_includes/footer.html"
+			],
+			[
+				"common",
+				"debug_table/js/common.js"
+			],
+			[
+				"intro-sta",
+				"_includes/intro-start.html"
+			],
+			[
+				"coa-sync",
+				"wp-content/plugins/coa-sync-google.php"
+			],
+			[
+				"header",
+				"_includes/header.html"
+			],
+			[
+				"puretone",
+				"debug_table/js/puretone.js"
+			],
+			[
+				"mcl.js",
+				"debug_table/js/mcl.js"
+			],
+			[
+				"intro-star",
+				"_includes/intro-start.html"
+			],
+			[
+				"mcl",
+				"_includes/mcl.html"
+			],
+			[
+				"speechinnoise",
+				"debug_table/js/speechinnoise.js"
+			],
+			[
+				"speechre",
+				"_includes/speechrec.html"
+			],
+			[
+				"speechrec.js",
+				"debug_table/js/speechrec.js"
+			],
+			[
+				"speechin",
+				"debug_table/js/speechinnoise.js"
+			],
+			[
+				"intro.js",
+				"debug_table/js/intro.js"
+			],
+			[
+				"pure",
+				"debug_table/js/puretone.js"
+			],
+			[
+				"intro-",
+				"_includes/intro-start.html"
+			],
+			[
+				"speec",
+				"debug_table/js/speechinnoise.js"
+			],
+			[
+				"pcp-re",
+				"pcp-results.html"
+			],
+			[
+				"main.js",
+				"debug_table/js/main.js"
+			],
+			[
+				"audio",
+				"js/audiogram.js"
+			],
+			[
+				"getda",
+				"getdata.js"
+			],
+			[
+				"keen_data",
+				"public/data/keen_data.json"
+			],
+			[
+				"keen_dat",
+				"public/data/keen_data_long.json"
+			],
+			[
+				"stats",
+				"views/stats.jade"
+			],
+			[
+				"speechinnoise.js",
+				"debug_table/js/speechinnoise.js"
+			],
+			[
+				"intro-s",
+				"_includes/intro-start.html"
+			],
+			[
+				"commo",
+				"debug_table/js/common.js"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"intercom.js",
+				"wp-content/themes/sage-8.5.4/assets/scripts/intercom.js"
+			],
+			[
+				"wp-confi",
+				"wp-config-local.php"
+			],
+			[
+				"procomm-file",
+				"wp-content/plugins/procomm-filemaker/procomm-filemaker.php"
+			],
+			[
+				"talent-tab",
+				"wp-content/themes/sage-8.5.1/templates/talent-table.php"
+			],
+			[
+				"functions",
+				"wp-includes/functions.php"
+			],
+			[
+				"get-tra",
+				"TransactionReporting/get-transaction-details.php"
+			],
+			[
+				"sample",
+				"constants/SampleCodeConstants.php"
+			],
+			[
+				"gulpfile",
+				"wp-content/themes/sage-8.5.1/gulpfile.js"
+			],
+			[
+				"base",
+				"wp-content/themes/sage-8.5.1/base.php"
+			],
+			[
+				"comm",
+				"debug_table/js/common.js"
+			],
+			[
+				"foot",
+				"_includes/footer.html"
+			],
+			[
+				"tests",
+				"debug_table/js/tests.js"
+			],
+			[
+				"quest",
+				"_includes/questions.html"
+			],
+			[
+				"questions",
+				"debug_table/js/questions.js"
+			],
+			[
+				"intro",
+				"debug_table/js/intro.js"
+			],
+			[
+				"procomm-f",
+				"wp-content/plugins/procomm-filemaker/procomm-filemaker.php"
+			],
+			[
+				"main",
+				"wp-content/themes/sage-8.5.1/assets/scripts/main.js"
+			],
+			[
+				"content",
+				"wp-content/themes/sage-8.5.1/templates/content-onboarding.php"
+			],
+			[
+				"content-ac",
+				"wp-content/themes/sage-8.5.1/templates/content-page-account.php"
+			],
+			[
+				"wp-ses",
+				"wp-content/plugins/wp-ses/wp-ses.php"
+			],
+			[
+				"users-app",
+				"wp-content/themes/flat-sassy-boots/js/users-app.js"
+			],
+			[
+				"employeedirec",
+				"wp-content/themes/flat-sassy-boots/employeedirectory.php"
+			],
+			[
+				"employ",
+				"wp-content/themes/flat-sassy-boots/employeedirectory.php"
+			],
+			[
+				"function",
+				"wp-content/themes/flat-sassy-boots/functions.php"
+			],
+			[
+				"coa-goo",
+				"wp-content/plugins/coa-sync-google.php"
+			],
+			[
+				"init",
+				"init.php"
+			],
+			[
+				"config",
+				"config/config.php"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"soba",
+				"src/SobaVisualization.js"
+			],
+			[
+				"index.j",
+				"demo/src/index.js"
+			],
+			[
+				"index.",
+				"demo/dist/index.html"
+			],
+			[
+				"tests.",
+				"debug_table/js/tests.js"
+			],
+			[
+				"foo",
+				"_includes/footer.html"
+			],
+			[
+				"mcl.",
+				"_includes/mcl.html"
+			],
+			[
+				"main.",
+				"js/main.js"
+			],
+			[
+				"pcp-",
+				"pcp-results.html"
+			],
+			[
+				"coa-e",
+				"wp-content/plugins/coa-enhance-google-directory.php"
+			],
+			[
+				"coa-g",
+				"wp-content/plugins/coa-sync-google.php"
+			],
+			[
+				"plugg",
+				"wp-includes/pluggable.php"
+			],
+			[
+				"coa-goog",
+				"wp-content/plugins/coa-sync-google.php"
+			],
+			[
+				"funciton",
+				"wp-content/themes/flat-sassy-boots/functions.php"
+			],
+			[
+				"questions.",
+				"_includes/questions.html"
+			],
+			[
+				"questions.js",
+				"debug_table/js/questions.js"
+			],
+			[
+				"full",
+				"fulltest.html"
+			],
+			[
+				"fullt",
+				"fulltest.html"
+			],
+			[
+				"test",
+				"debug_table/js/tests.js"
+			],
+			[
+				"intr",
+				"_includes/intro-start.html"
+			],
+			[
+				"fulltest",
+				"fulltest.html"
+			],
+			[
+				"question.j",
+				"debug_table/js/questions.js"
+			],
+			[
+				"content-up",
+				"wp-content/themes/sage-8.5.1/templates/content-account-overview.php"
+			],
+			[
+				"job-",
+				"wp-content/themes/sage-8.5.1/templates/job-detail.php"
+			],
+			[
+				"procom-",
+				"wp-content/plugins/procomm-filemaker/procomm-filemaker.php"
+			],
+			[
+				"share.",
+				"wp-content/themes/sage-8.5.1/angular-templates/share.html"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"gke.",
+				"gke.yml"
+			],
+			[
+				"content-o",
+				"wp-content/themes/sage-8.5.1/templates/content-onboarding.php"
+			],
+			[
+				"prc.js",
+				"prc.js"
+			],
+			[
+				"order.js",
+				"node_modules/shopify-api-node/resources/order.js"
+			],
+			[
+				"shopify",
+				"node_modules/shopify-api-node/index.js"
+			],
+			[
+				"company-",
+				"wp-content/themes/sage-8.5.1/templates/company-profile.php"
+			],
+			[
+				"content-acc",
+				"wp-content/themes/sage-8.5.1/templates/content-page-account.php"
+			],
+			[
+				"content-on",
+				"wp-content/themes/sage-8.5.1/templates/content-onboarding.php"
+			],
+			[
+				"setup",
+				"wp-content/themes/sage-8.5.1/lib/setup.php"
+			],
+			[
+				"login",
+				"wp-content/themes/sage-8.5.1/angular-templates/login.html"
+			],
+			[
+				"speechrec",
+				"debug_table/js/speechrec.js"
+			],
+			[
+				"simplicity_re",
+				"api/simplicity_resolvers.js"
+			],
+			[
+				"extr",
+				"wp-content/themes/sage-8.5.1/lib/extras.php"
+			],
+			[
+				"fm_data",
+				"wp-content/themes/sage-8.5.1/node_modules/form-data/lib/form_data.js"
+			],
+			[
+				"on",
+				"wp-content/themes/sage-8.5.1/templates/content-onboarding.php"
+			],
+			[
+				"wp-login",
+				"wp-login.php"
+			],
+			[
+				"company",
+				"wp-content/themes/sage-8.5.1/templates/company-profile.php"
+			],
+			[
+				"content-onb",
+				"wp-content/themes/sage-8.5.1/templates/content-onboarding.php"
+			],
+			[
+				"listen_p",
+				"listen_profile.php"
+			],
+			[
+				"onboar",
+				"wp-content/themes/sage-8.5.1/templates/content-onboarding.php"
+			],
+			[
+				"content-a",
+				"wp-content/themes/sage-8.5.1/templates/content-page-account.php"
+			],
+			[
+				"procomm-",
+				"wp-content/plugins/procomm-filemaker/procomm-filemaker.php"
+			],
+			[
+				"gke",
+				"gke.yml"
+			],
+			[
+				"simplcity_sch",
+				"api/simplicity_schema.js"
+			],
+			[
+				"neigh",
+				"api/neighborhood/neighborhood_resolvers.js"
+			],
+			[
+				"stats_re",
+				"api/stats/stats_resolvers.js"
+			],
+			[
+				"crime_r",
+				"api/crime/crime_resolvers.js"
+			],
+			[
+				"crime_",
+				"api/crime/crime_schema.js"
+			],
+			[
+				"crime_sc",
+				"api/crime/crime_schema.js"
+			],
+			[
+				"simplicity_s",
+				"api/simplicity_schema.js"
+			],
+			[
+				"stats_s",
+				"api/stats/stats_schema.js"
+			],
+			[
+				"crime_se",
+				"api/crime/crime_schema.js"
+			],
+			[
+				"simpl",
+				"api/simplicity_schema.js"
+			],
+			[
+				"crime",
+				"api/crime/crime_resolvers.js"
+			],
+			[
+				"budget",
+				"api/budget/budget_resolvers.js"
+			],
+			[
+				"find.php",
+				"wp-content/plugins/procomm-filemaker/vendor/filemaker/FileMaker/Command/Find.php"
+			],
+			[
+				"Find.php",
+				"wp-content/plugins/procomm-filemaker/vendor/filemaker/FileMaker/Command/Find.php"
+			],
+			[
+				"wp_rou",
+				"wp-content/themes/sage-8.5.1/lib/WP_Route.php"
+			],
+			[
+				"company-pr",
+				"wp-content/themes/sage-8.5.1/templates/company-profile.php"
+			],
+			[
+				"panthe",
+				"pantheon.upstream.yml"
+			],
+			[
+				"extra",
+				"wp-content/themes/sage-8.5.1/lib/extras.php"
+			],
+			[
+				"share.ht",
+				"wp-content/themes/sage-8.5.1/angular-templates/share.html"
+			],
+			[
+				"angular",
+				"wp-content/themes/sage-8.5.1/assets/scripts/angular.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 272.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
