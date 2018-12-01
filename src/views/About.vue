@@ -13,6 +13,7 @@
         AVLPark helps you find a parking spot and one of Asheville's downtown parking decks. The city has provided a real-time data feed, updated every 30 seconds. We pull this information at regular intervals, and send it to Keen IO for storage. This will allow us to view historical trends and visualize the data in different ways.
       </p>
     </div>
+    <hr>
   </div>
 </template>
 <style scoped lang="scss">
