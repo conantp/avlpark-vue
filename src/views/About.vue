@@ -1,10 +1,12 @@
 <template>
   <div class="home container">
-    <img
-      class="site-logo"
-      alt="AVLPark logo"
-      src="../assets/logo.png"
-    >
+    <a href="/">
+      <img
+        class="site-logo"
+        alt="AVLPark logo"
+        src="../assets/logo.png"
+      >
+    </a>
     <!-- <h1>AVLPark</h1> -->
     <hr>
     <div class="about">
