@@ -9,7 +9,7 @@
     <router-view />
     <div class="prc-footer">
       <div>
-        <a href="https://www.github.com/conantp/avlpark-vue">GitHub</a> |
+        <a href="https://github.com/conantp/avlpark-vue">GitHub</a> |
         <a href="https://data.avlpark.com">Data</a>
       </div>
       <h4>Developed by</h4>
