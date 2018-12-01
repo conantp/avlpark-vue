@@ -12,7 +12,7 @@
         <animated-counter :value="total" />
         total spaces
       </h1>
-      <small> Updated {{ last_updated.format("MMMM Do, h:m A") }} </small>
+      <small> Updated {{ last_updated.format("MMMM Do, h:mm A") }} </small>
     </div>
     <div class="columns is-multiline is-gapless is-mobile deck-container">
       <div
