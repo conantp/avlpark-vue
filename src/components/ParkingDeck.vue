@@ -1,57 +1,139 @@
 <template>
-  <div class="parking-deck">
-    <div class='parking-deck-spaces'>
-      <h2><animated-counter :value="parseInt(deck.available)"></animated-counter></h2>
+  <div
+    :class="{ low: deck.available < 10, medium: deck.available < 25 }"
+    class="parking-deck"
+    @click="toggleCharts()"
+  >
+    <div class="parking-deck-spaces">
+      <h2>
+        <animated-counter :value="parseInt(deck.available)" />
+      </h2>
       <p>spaces available</p>
     </div>
-    <div class='parking-deck-name'>
-      <img v-if="deck.name != '11 Sears Alley' && deck.name != 'College Street'" alt="City of Asheville" src="../assets/avl.svg" />
-      <img v-if="deck.name == '11 Sears Alley' || deck.name == 'College Street'" alt="Buncombe County"  src="../assets/bc.png" />
+    <div class="parking-deck-name">
+      <img
+        :src="deckImage"
+      >
       <h1>{{ deck.name }}</h1>
+    </div>
+    <div class="chart-outer">
+      <transition name="bounce">
+        <div
+          v-show="showChart"
+          class="chart-container"
+        >
+          <ParkingDeckChart
+            :chart-data="deck.data"
+          />
+        </div>
+      </transition>
     </div>
   </div>
 </template>
 
 <script>
+import ParkingDeckChart from './ParkingDeckChart.vue';
 import AnimatedCounter from './AnimatedCounter.vue';
+import BC_IMAGE from '../assets/bc.png';
+import AVL_IMAGE from '../assets/avl.svg';
+
+const moment = require('moment-timezone');
 
 export default {
-  name: "ParkingDeck",
-  props: {
-    deck: Object,
-  },
+
+  name: 'ParkingDeck',
   components: {
-    AnimatedCounter
-  }
+    AnimatedCounter,
+    ParkingDeckChart,
+  },
+  props: {
+    deck: {
+      type: Object,
+      default() {
+        return {};
+      },
+    },
+  },
+  computed: {
+    showChart() {
+      return this.$store.state.showCharts;
+    },
+    deckImage() {
+      if (this.deck.name === '11 Sears Alley' || this.deck.name === 'College Street') {
+        return BC_IMAGE;
+      }
+
+      return AVL_IMAGE;
+    },
+  },
+  methods: {
+    toggleCharts() {
+      this.$store.commit('changeShowCharts');
+    },
+  },
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-h1{
+.bounce-enter-active {
+  animation: bounce-in .5s;
+}
+.bounce-leave-active {
+  animation: bounce-in .5s reverse;
+}
+@keyframes bounce-in {
+  0% {
+    height: 0;
+    transform: translateY(-100px);
+  }
+  100% {
+    height: 160px;
+    transform: translateY(0);
+  }
+}
+
+.chart-outer{
+  overflow: hidden;
+}
+.chart-container > div{
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  height: 150px;
+  background: rgba(255,255,255,0.6);
+}
+h1 {
   margin: 0;
   padding: 0;
 }
-.parking-deck{
+.parking-deck {
+  &.medium {
+    background: #e87d06;
+  }
+
+  &.low {
+    background: #e84a34;
+  }
   background: #21ce6b;
   /*width: 31.3%;*/
   /*float: left;*/
   /*margin: 1%;*/
   /*padding: 20px;*/
   /*margin: 5px;*/
-  margin-top: 10px;
-  margin-right: 5px;
-  margin-left: 5px;
-  padding-bottom: 5px;
+  margin-top: 5px;
+  margin-right: 2.5px;
+  margin-left: 2.5px;
+  padding-bottom: 2.5px;
 }
 
-.parking-deck-spaces{
+.parking-deck-spaces {
   padding: 5px 5px 5px 5px;
   text-align: left;
   color: white;
   /*line-height: 20px;*/
   font-weight: bold;
-  h2{
+  h2 {
     /*line-height: 3rem;*/
     font-size: 36px;
     font-weight: bolder;
@@ -61,8 +143,7 @@ h1{
     color: white;
   }
 
-
-  p{
+  p {
     padding: 0;
     margin: 0;
     font-weight: medium;
@@ -71,11 +152,11 @@ h1{
   }
 }
 
-.parking-deck-name{
+.parking-deck-name {
   padding: 0 5px 0px 5px;
   display: flex;
 
-  h1{
+  h1 {
     text-align: left;
     font-size: 16px;
     font-weight: bold;
@@ -84,7 +165,7 @@ h1{
     align-self: flex-end;
   }
 
-  img{
+  img {
     margin-right: 5px;
     /*display: block;*/
     float: left;
@@ -95,18 +176,17 @@ h1{
     /*display: inline-block;*/
     align-self: flex-end;
     display: flex;
-
   }
 }
 
-h3{
+h3 {
   color: white;
 }
 
-p{
+p {
   margin: 0;
 }
-h1{
+h1 {
   color: #304153;
 }
 </style>

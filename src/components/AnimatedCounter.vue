@@ -3,34 +3,34 @@
 </template>
 
 <script>
-var TWEEN = require("@tweenjs/tween.js");
+const TWEEN = require('@tweenjs/tween.js');
 
 export default {
   props: {
     // The value that we'll be tweening to.
     value: {
       type: Number,
-      required: true
+      required: true,
     },
     // How long the tween should take. (In milliseconds.)
     tweenDuration: {
       type: Number,
-      default: 500
-    }
+      default: 500,
+    },
+  },
+
+  // This holds the temporary state of the tweened value.
+  data() {
+    return {
+      tweeningValue: 0,
+    };
   },
 
   watch: {
     // Whenever `props.value` changes, update the tween.
     value(newVal, oldVal) {
       this.tween(oldVal, newVal);
-    }
-  },
-
-  // This holds the temporary state of the tweened value.
-  data() {
-    return {
-      tweeningValue: 0
-    };
+    },
   },
 
   mounted() {
@@ -43,7 +43,7 @@ export default {
       let frameHandler;
 
       // Handles updating the tween on each frame.
-      const animate = function(currentTime) {
+      const animate = function (currentTime) {
         TWEEN.update(currentTime);
         frameHandler = requestAnimationFrame(animate);
       };
@@ -63,7 +63,7 @@ export default {
         .start();
 
       frameHandler = requestAnimationFrame(animate);
-    }
-  }
+    },
+  },
 };
 </script>
