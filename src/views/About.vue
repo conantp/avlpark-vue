@@ -27,6 +27,7 @@ p{
 	margin: 0 auto;
 	line-height: 1.5em;
 	text-align: left;
+  margin-bottom: 20px;
 }
 hr {
   margin: 0.5em 0;
