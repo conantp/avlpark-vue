@@ -49,7 +49,7 @@ export default {
       const val = this.$store.state.decks.reduce(
         (acc, currValue) => (acc > currValue.last_modified ? acc : currValue.last_modified), 0,
       );
-      console.log('last updated update', val, this.$store.state.decks);
+      // console.log('last updated update', val, this.$store.state.decks);
       return moment.utc(val).tz('America/New_York');
     },
 
