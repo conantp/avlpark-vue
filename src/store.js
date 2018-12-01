@@ -28,22 +28,22 @@ export default new Vuex.Store({
 
       Object.entries(input.decks).forEach(([index, row]) => {
         row.data = {};
+        row.available = parseInt(row.available);
 
         const existingDeckIndex = state.decks.findIndex(deck => deck.name == row.name);
 
         const existingDeck = state.decks.find(deck => deck.name === row.name);
         // console.log(row.available, existingDeck);
-        if (existingDeckIndex != -1) {
-          const temp = state.decks[existingDeckIndex];
-
-          temp.available = parseInt(state.decks[existingDeckIndex].available);
-          Vue.set(state.decks, existingDeckIndex, temp);
+        if (existingDeck) {
+          existingDeck.available = row.available;
+          existingDeck.last_modified = row.last_modified;
+          Vue.set(state.decks, existingDeckIndex, existingDeck);
         } else {
           state.decks.push(row);
         }
       });
 
-      state.decks = state.decks.sort((a, b) => a.name > b.name);
+      // state.decks = state.decks.sort((a, b) => a.name > b.name);
     },
     SOCKET_CONNECT: (state, status) => {
       console.log('socket connect', status);
@@ -52,7 +52,7 @@ export default new Vuex.Store({
     SOCKET_KEENUPDATE: (state, input) => {
       Object.entries(input).forEach(([index, row]) => {
         const existingDeckIndex = state.decks.findIndex(deck => deck.name == index);
-        console.log('test', existingDeckIndex);
+
         if (existingDeckIndex != -1) {
           const temp = state.decks[existingDeckIndex];
           // temp.available = parseInt(temp.available) + 1;
@@ -61,6 +61,7 @@ export default new Vuex.Store({
 
           Object.entries(row).forEach(([index2, row2]) => {
             const amoment = moment.utc(index2, 'MM-DD-YYYYTHH:mm:ss');
+            // amoment.add(2, 'hour');
             newData.push({ x: amoment.toDate(), y: row2 });
           });
 
