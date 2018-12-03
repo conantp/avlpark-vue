@@ -9,13 +9,13 @@
     <router-view />
     <div class="prc-footer">
       <div>
-        <a
+        <!-- <a
           href="https://donorbox.org/avlpark"
           class="custom-dbox-popup"
         >
           Donate
         </a>
-        |
+        | -->
         <a href="https://github.com/conantp/avlpark-vue">GitHub</a> |
         <a href="https://data.avlpark.com">Data</a>
       </div>
