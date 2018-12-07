@@ -18,6 +18,7 @@
           Donate
         </a>
         | -->
+        <a href="/about">About</a> |
         <a href="https://github.com/conantp/avlpark-vue">GitHub</a> |
         <a href="https://data.avlpark.com">Data</a>
       </div>
