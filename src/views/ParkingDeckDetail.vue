@@ -15,9 +15,12 @@
       v-if="activeDeck"
       class="top-information"
     >
-      <h2>
-        {{ activeDeck.name }}
-      </h2>
+      <h1>
+        {{ activeDeck.name }} -
+        <a :href="deckMapLink">
+          Get Directions
+        </a>
+      </h1>
       <h1>
         <animated-counter :value="activeDeck.available" />
         total spaces
@@ -25,19 +28,30 @@
       <small> Updated {{ last_updated.format("MMMM Do, h:mm A") }} </small>
     </div>
     <div class="columns is-multiline is-gapless is-mobile deck-container">
-      <div class="column is-full">
-        <div class="chart-outer">
-          <transition name="bounce">
-            <div
-              class="chart-container"
-            >
-              <ParkingDeckChart
-                v-if="activeDeck"
-                :chart-data="activeDeck.data"
-              />
-            </div>
-          </transition>
-        </div>
+      <div
+        class="column is-full"
+      >
+        <h2>Past Hour</h2>
+        <ParkingDeckChart
+          v-if="activeDeck"
+          :chart-data="activeDeck.data"
+        />
+        <hr>
+        <h2>Past 24 Hours</h2>
+        <ParkingDeckChart
+          v-if="activeDeck"
+          :chart-data="activeDeck.dataLong"
+        />
+        <h2>Past Week</h2>
+        <ParkingDeckChart
+          v-if="activeDeck"
+          :chart-data="activeDeck.dataWeek"
+        />
+        <!-- <h2>Past Month</h2> -->
+        <!-- <ParkingDeckChart
+          v-if="activeDeck"
+          :chart-data="activeDeck.dataMonth"
+        /> -->
       </div>
     </div>
     <hr>
@@ -62,6 +76,9 @@ export default {
     ParkingDeckChart,
   },
   computed: {
+    deckMapLink() {
+      return `https://www.google.com/maps/search/${this.activeDeck.name},Asheville NC`;
+    },
     activeDeck() {
       return this.$store.state.decks.find(deck => deck.name === this.$route.params.name);
     },
@@ -76,6 +93,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+h2{
+  font-size: 16px;
+  font-weight: bold;
+}
 hr {
   margin: 0.5em 0;
 }

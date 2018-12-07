@@ -28,6 +28,9 @@ export default new Vuex.Store({
 
       Object.entries(input.decks).forEach(([index, row]) => {
         row.data = {};
+        row.dataLong = {};
+        row.dataWeek = {};
+        row.dataMonth = {};
         row.available = parseInt(row.available);
 
         const existingDeckIndex = state.decks.findIndex(deck => deck.name == row.name);
@@ -77,6 +80,107 @@ export default new Vuex.Store({
 
           temp.data = newDataStuff;
 
+          Vue.set(state.decks, existingDeckIndex, temp);
+          state.decks.splice();
+        }
+      });
+    },
+    SOCKET_KEENLONGUPDATE: (state, input) => {
+      Object.entries(input).forEach(([index, row]) => {
+        const existingDeckIndex = state.decks.findIndex(deck => deck.name == index);
+
+        if (existingDeckIndex != -1) {
+          const temp = state.decks[existingDeckIndex];
+          // temp.available = parseInt(temp.available) + 1;
+
+          const newData = [];
+
+          Object.entries(row).forEach(([index2, row2]) => {
+            const amoment = moment.utc(index2, 'MM-DD-YYYYTHH:mm:ss');
+            // amoment.add(2, 'hour');
+            newData.push({ x: amoment.toDate(), y: row2 });
+          });
+
+          const newDataStuff = {
+            //   // labels: ['A', 'B', 'C'],
+            datasets: [
+              {
+                label: 'Spaces Available',
+                backgroundColor: '#e87d06',
+                data: newData,
+              }],
+          };
+
+          temp.dataLong = newDataStuff;
+          // console.log('data', temp.dataLong);
+          Vue.set(state.decks, existingDeckIndex, temp);
+          state.decks.splice();
+        }
+      });
+    },
+    SOCKET_KEENWEEKUPDATE: (state, input) => {
+      console.log('keen week');
+      Object.entries(input).forEach(([index, row]) => {
+        const existingDeckIndex = state.decks.findIndex(deck => deck.name == index);
+
+        if (existingDeckIndex != -1) {
+          const temp = state.decks[existingDeckIndex];
+          // temp.available = parseInt(temp.available) + 1;
+
+          const newData = [];
+
+          Object.entries(row).forEach(([index2, row2]) => {
+            const amoment = moment.utc(index2, 'MM-DD-YYYYTHH:mm:ss');
+            // amoment.add(2, 'hour');
+            newData.push({ x: amoment.toDate(), y: row2 });
+          });
+
+          const newDataStuff = {
+            //   // labels: ['A', 'B', 'C'],
+            datasets: [
+              {
+                label: 'Spaces Available',
+                backgroundColor: '#e87d06',
+                data: newData,
+              }],
+          };
+
+          temp.dataWeek = newDataStuff;
+          // console.log('data', temp.dataLong);
+          Vue.set(state.decks, existingDeckIndex, temp);
+          state.decks.splice();
+        }
+      });
+    },
+    SOCKET_KEENMONTHUPDATE: (state, input) => {
+      console.log('go123');
+      Object.entries(input).forEach(([index, row]) => {
+        const existingDeckIndex = state.decks.findIndex(deck => deck.name == index);
+
+        if (existingDeckIndex != -1) {
+          const temp = state.decks[existingDeckIndex];
+          // temp.available = parseInt(temp.available) + 1;
+
+          const newData = [];
+
+          Object.entries(row).forEach(([index2, row2]) => {
+            const amoment = moment.utc(index2, 'MM-DD-YYYYTHH:mm:ss');
+            // amoment.add(2, 'hour');
+            newData.push({ x: amoment.toDate(), y: row2 });
+          });
+
+          const newDataStuff = {
+            //   // labels: ['A', 'B', 'C'],
+            datasets: [
+              {
+                label: 'Spaces Available',
+                backgroundColor: '#e87d06',
+                data: newData,
+              }],
+          };
+
+          temp.dataMonth = newDataStuff;
+          // console.log('data', temp.dataLong);
           Vue.set(state.decks, existingDeckIndex, temp);
           state.decks.splice();
         }

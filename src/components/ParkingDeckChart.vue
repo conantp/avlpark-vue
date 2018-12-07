@@ -19,7 +19,7 @@ export default {
         xAxes: [{
           type: 'time',
           time: {
-            unit: 'minute',
+            // unit: 'day',
           },
         }],
         yAxes: [{
