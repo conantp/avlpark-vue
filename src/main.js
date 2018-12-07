@@ -10,8 +10,8 @@ import store from './store';
 
 import 'bulma/css/bulma.css';
 
-Vue.use(VueSocketio, io('http://localhost:5001'), { store });
-// Vue.use(VueSocketio, io('https://data.avlpark.com'), { store });
+// Vue.use(VueSocketio, io('http://localhost:5001'), { store });
+Vue.use(VueSocketio, io('https://data.avlpark.com'), { store });
 // import "bulma/sass/bulma.sass";
 
 Vue.config.productionTip = false;
