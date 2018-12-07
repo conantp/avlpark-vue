@@ -14,7 +14,11 @@
       <img
         :src="deckImage"
       >
-      <h1>{{ deck.name }}</h1>
+      <router-link :to="deckLink">
+
+        <h1>{{ deck.name }}</h1>
+      </router-link>
+
     </div>
     <div class="chart-outer">
       <transition name="bounce">
@@ -55,6 +59,9 @@ export default {
     },
   },
   computed: {
+    deckLink() {
+      return encodeURI(`/deck/${this.deck.name}`);
+    },
     showChart() {
       return this.$store.state.showCharts;
     },

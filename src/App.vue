@@ -6,6 +6,8 @@
         <router-link to="/about">About</router-link>
       </div>
     -->
+    <!-- <h1>AVLPark</h1> -->
+    <hr>
     <router-view />
     <div class="prc-footer">
       <div>

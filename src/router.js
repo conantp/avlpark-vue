@@ -13,6 +13,11 @@ export default new Router({
       component: Home,
     },
     {
+      path: '/deck/:name',
+      name: 'parkingdeckdetail',
+      component: () => import(/* webpackChunkName: "about" */ './views/ParkingDeckDetail.vue'),
+    },
+    {
       path: '/about',
       name: 'about',
       // route level code-splitting
