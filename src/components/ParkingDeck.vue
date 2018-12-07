@@ -63,7 +63,8 @@ export default {
       return encodeURI(`/deck/${this.deck.name}`);
     },
     showChart() {
-      return this.$store.state.showCharts;
+      return false;
+      // return this.$store.state.showCharts;
     },
     deckImage() {
       if (this.deck.name === '11 Sears Alley' || this.deck.name === 'College Street') {
