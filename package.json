@@ -15,6 +15,7 @@
     "moment-timezone": "^0.5.23",
     "socket.io-client": "^2.1.1",
     "vue": "^2.5.17",
+    "vue-analytics": "^5.16.1",
     "vue-chartjs": "^3.4.0",
     "vue-router": "^3.0.1",
     "vue-socket.io-extended": "^3.1.0",
