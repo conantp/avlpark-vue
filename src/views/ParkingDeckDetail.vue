@@ -1,12 +1,12 @@
 <template>
   <div class="home container">
-    <router-link to="/">
+    <RouterLink to="/">
       <img
         class="site-logo"
         alt="AVLPark logo"
         src="../assets/logo.png"
       >
-    </router-link>
+    </RouterLink>
 
 
     <!-- <h1>AVLPark</h1> -->
@@ -22,7 +22,7 @@
         </a>
       </h1>
       <h1>
-        <animated-counter :value="activeDeck.available" />
+        <AnimatedCounter :value="activeDeck.available" />
         total spaces
       </h1>
       <small> Updated {{ last_updated.format("MMMM Do, h:mm A") }} </small>

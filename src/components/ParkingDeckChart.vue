@@ -13,6 +13,7 @@ export default {
       legend: {
         display: false,
       },
+      fill: false,
       responsive: true,
       maintainAspectRatio: false,
       scales: {
