@@ -142,7 +142,8 @@ export default new Vuex.Store({
                 label: 'Spaces Available',
                 backgroundColor: '#e87d06',
                 data: newData,
-                fill: false,
+                showLine: true,
+                spanGaps: false,
               }],
           };
 
