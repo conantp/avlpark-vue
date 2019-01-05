@@ -81,7 +81,7 @@
 
   #appstore{
     max-height: 60px;
-    margin-top: 10px;
+    margin-top: 15px;
   }
 
   img {
