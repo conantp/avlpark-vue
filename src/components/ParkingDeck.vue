@@ -4,24 +4,24 @@
     class="parking-deck"
     @click="toggleCharts()"
   >
-    <div class="parking-deck-spaces">
-      <h2>
-        <animated-counter :value="parseInt(deck.available)" />
-      </h2>
-      <p>spaces available</p>
-    </div>
-    <div class="parking-deck-name">
-      <img
-        :src="deckImage"
-      >
-      <router-link :to="deckLink">
+    <RouterLink :to="deckLink">
+      <div class="parking-deck-spaces">
+        <h2>
+          <AnimatedCounter :value="parseInt(deck.available)" />
+        </h2>
+        <p>spaces available</p>
+      </div>
+      <div class="parking-deck-name">
+        <img
+          :src="deckImage"
+        >
 
         <h1>{{ deck.name }}</h1>
-      </router-link>
+      </div>
+    </RouterLink>
 
-    </div>
-    <div class="chart-outer">
-      <transition name="bounce">
+    <!-- <div class="chart-outer">
+      <Transition name="bounce">
         <div
           v-show="showChart"
           class="chart-container"
@@ -30,8 +30,8 @@
             :chart-data="deck.data"
           />
         </div>
-      </transition>
-    </div>
+      </Transition>
+    </div> -->
   </div>
 </template>
 
