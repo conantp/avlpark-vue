@@ -29,10 +29,16 @@
         </a>
       </div>
       <div>
-        <img
-          src="../assets/appstore.svg"
-          alt="Download AVLPark on the App Store"
+        <a
+          href="https://itunes.apple.com/us/app/avlpark/id1445324019"
+          title="Download AVLPark on the App Store"
         >
+          <img
+            id="appstore"
+            src="/appstore.png"
+            alt="Download AVLPark on the App Store"
+          >
+        </a>
       </div>
       <h4>Developed by</h4>
       <a href="https://www.prcapps.com">
@@ -53,6 +59,7 @@
   /*color: #2c3e50;*/
 }
 
+
 .prc-footer {
   padding: 0;
   margin-top: 30px;
@@ -62,6 +69,12 @@
     max-height: 80px;
     display: block;
     margin: 0 auto;
+  }
+
+  #appstore{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-height: auto;
   }
 }
 #nav {
