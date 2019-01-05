@@ -8,7 +8,7 @@
     -->
     <!-- <h1>AVLPark</h1> -->
     <hr>
-    <router-view />
+    <RouterView />
     <div class="prc-footer">
       <div>
         <!-- <a
@@ -18,9 +18,21 @@
           Donate
         </a>
         | -->
-        <a href="/about">About</a> |
-        <a href="https://github.com/conantp/avlpark-vue">GitHub</a> |
-        <a href="https://data.avlpark.com">Data</a>
+        <a href="/about">
+          About
+        </a> |
+        <a href="https://github.com/conantp/avlpark-vue">
+          GitHub
+        </a> |
+        <a href="https://data.avlpark.com">
+          Data
+        </a>
+      </div>
+      <div>
+        <img
+          src="../assets/appstore.svg"
+          alt="Download AVLPark on the App Store"
+        >
       </div>
       <h4>Developed by</h4>
       <a href="https://www.prcapps.com">
