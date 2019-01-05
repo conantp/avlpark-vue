@@ -9,7 +9,7 @@
     <hr>
     <div class="top-information">
       <h1>
-        <animated-counter :value="total" />
+        <AnimatedCounter :value="total" />
         total spaces
       </h1>
       <small> Updated {{ last_updated.format("MMMM Do, h:mm A") }} </small>
@@ -74,6 +74,7 @@ hr {
   /*max-width: 100%;*/
   margin-left: 0;
   margin-right: 0;
+  marign-bottom: 0 !important;
 }
 .column {
   /*border: 1px solid red;*/
@@ -82,7 +83,7 @@ hr {
   text-align: center;
 }
 .site-logo {
-  max-height: 20vh;
+  max-height: 15vh;
   /*max-width: 200px;*/
   display: block;
   margin: 0 auto;
