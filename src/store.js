@@ -7,9 +7,9 @@ Vue.use(Vuex);
 
 function processEntries(state, input, target) {
   Object.entries(input).forEach(([index, row]) => {
-    const existingDeckIndex = state.decks.findIndex(deck => deck.name == index);
+    const existingDeckIndex = state.decks.findIndex(deck => deck.name === index);
 
-    if (existingDeckIndex != -1) {
+    if (existingDeckIndex !== -1) {
       const temp = state.decks[existingDeckIndex];
       // temp.available = parseInt(temp.available) + 1;
 
