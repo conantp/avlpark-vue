@@ -31,9 +31,9 @@ export default new Vuex.Store({
         row.dataLong = {};
         row.dataWeek = {};
         row.dataMonth = {};
-        row.available = parseInt(row.available);
+        row.available = parseInt(row.available, 10);
 
-        const existingDeckIndex = state.decks.findIndex(deck => deck.name == row.name);
+        const existingDeckIndex = state.decks.findIndex(deck => deck.name === row.name);
 
         const existingDeck = state.decks.find(deck => deck.name === row.name);
         // console.log(row.available, existingDeck);
@@ -54,7 +54,7 @@ export default new Vuex.Store({
     },
     SOCKET_KEENUPDATE: (state, input) => {
       Object.entries(input).forEach(([index, row]) => {
-        const existingDeckIndex = state.decks.findIndex(deck => deck.name == index);
+        const existingDeckIndex = state.decks.findIndex(deck => deck.name === index);
 
         if (existingDeckIndex != -1) {
           const temp = state.decks[existingDeckIndex];
