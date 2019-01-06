@@ -1,16 +1,5 @@
 <template>
   <div class="home container">
-    <RouterLink to="/">
-      <img
-        class="site-logo"
-        alt="AVLPark logo"
-        src="../assets/logo.png"
-      >
-    </RouterLink>
-
-
-    <!-- <h1>AVLPark</h1> -->
-    <hr>
     <div
       v-if="activeDeck"
       class="top-information"

@@ -1,12 +1,5 @@
 <template>
   <div class="home container">
-    <img
-      class="site-logo"
-      alt="AVLPark logo"
-      src="../assets/logo.png"
-    >
-    <!-- <h1>AVLPark</h1> -->
-    <hr>
     <div class="top-information">
       <h1>
         <AnimatedCounter :value="total" />
@@ -82,16 +75,7 @@ hr {
 .home {
   text-align: center;
 }
-.site-logo {
-  max-height: 15vh;
-  /*max-width: 200px;*/
-  display: block;
-  margin: 0 auto;
-  margin-top: 10px;
-}
-img {
-  /*width: 25%;*/
-}
+
 
 h1 {
   font-size: 24px;

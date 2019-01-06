@@ -7,6 +7,15 @@
       </div>
     -->
     <!-- <h1>AVLPark</h1> -->
+    <RouterLink to="/">
+      <img
+        class="site-logo"
+        alt="AVLPark logo"
+        :src="getLogo"
+      >
+    </RouterLink>
+    <!-- <h1>AVLPark</h1> -->
+    <hr>
     <RouterView />
     <div class="prc-footer">
       <div>
@@ -17,9 +26,9 @@
           Donate
         </a>
         | -->
-        <a href="/about">
+        <RouterLink to="/about">
           About
-        </a> |
+        </RouterLink> |
         <a href="https://github.com/conantp/avlpark-vue">
           GitHub
         </a> |
@@ -52,8 +61,30 @@
     </div>
   </div>
 </template>
+<script>
+import LOGO from './assets/logo.png';
+
+export default {
+  name: 'App',
+  components: {
+  },
+  computed: {
+    getLogo() {
+      return LOGO;
+    },
+  },
+};
+</script>
 
 <style lang="scss">
+.site-logo {
+  max-height: 15vh;
+  /*max-width: 200px;*/
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
 #app {
   /*font-family: "Avenir", Helvetica, Arial, sans-serif;*/
   /*-webkit-font-smoothing: antialiased;*/
