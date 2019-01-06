@@ -5,7 +5,7 @@
         <AnimatedCounter :value="total" />
         total spaces
       </h1>
-      <small> Updated {{ last_updated.format("MMMM Do, h:mm A") }} </small>
+      <small> Updated {{ lastUpdated.format("MMMM Do, h:mm A") }} </small>
     </div>
     <div class="columns is-multiline is-gapless is-mobile deck-container">
       <div
@@ -38,7 +38,7 @@ export default {
       return this.$store.state.decks.reduce((acc, currValue) => acc
         + parseInt(currValue.available, 10), 0);
     },
-    last_updated() {
+    lastUpdated() {
       const val = this.$store.state.decks.reduce(
         (acc, currValue) => (acc > currValue.last_modified ? acc : currValue.last_modified), 0,
       );

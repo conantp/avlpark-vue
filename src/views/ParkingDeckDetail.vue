@@ -14,7 +14,7 @@
         <AnimatedCounter :value="activeDeck.available" />
         total spaces
       </h1>
-      <small> Updated {{ last_updated.format("MMMM Do, h:mm A") }} </small>
+      <small> Updated {{ lastUpdated.format("MMMM Do, h:mm A") }} </small>
     </div>
     <div class="columns is-multiline is-gapless is-mobile deck-container">
       <div
@@ -71,7 +71,7 @@ export default {
     activeDeck() {
       return this.$store.state.decks.find(deck => deck.name === this.$route.params.name);
     },
-    last_updated() {
+    lastUpdated() {
       return moment(this.activeDeck.last_updated);
     },
     connected() {
