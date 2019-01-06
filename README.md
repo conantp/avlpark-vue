@@ -18,6 +18,6 @@ yarn run build
 ```
 
 ### Lints and fixes files
-```
+```shell
 yarn run lint
 ```
