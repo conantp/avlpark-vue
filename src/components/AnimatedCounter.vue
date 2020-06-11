@@ -1,5 +1,7 @@
 <template>
-  <span class="tweened-number">{{ tweeningValue }}</span>
+  <span class="tweened-number">
+    {{ tweeningValue }}
+  </span>
 </template>
 
 <script>

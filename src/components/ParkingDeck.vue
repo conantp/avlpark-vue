@@ -60,7 +60,7 @@ export default {
   },
   computed: {
     deckLink() {
-      return encodeURI(`/deck/${this.deck.name}`);
+      return `/deck/${encodeURIComponent(this.deck.name)}`;
     },
     showChart() {
       return false;

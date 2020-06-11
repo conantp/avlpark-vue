@@ -36,11 +36,11 @@
           v-if="activeDeck"
           :chart-data="activeDeck.dataWeek"
         />
-        <!-- <h2>Past Month</h2> -->
-        <!-- <ParkingDeckChart
+        <h2>Past Month</h2>
+        <ParkingDeckChart
           v-if="activeDeck"
           :chart-data="activeDeck.dataMonth"
-        /> -->
+        />
       </div>
     </div>
     <hr>

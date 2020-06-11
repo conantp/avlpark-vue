@@ -1,5 +1,5 @@
 module.exports = {
-  lintOnSave: true,
+  lintOnSave: false,
   baseUrl: process.env.NODE_ENV === 'production'
     ? '/'
     : '/',
