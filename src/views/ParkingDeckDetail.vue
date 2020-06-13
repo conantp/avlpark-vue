@@ -41,6 +41,11 @@
           v-if="activeDeck"
           :chart-data="activeDeck.dataMonth"
         />
+        <h2>Past Quarter</h2>
+        <ParkingDeckChart
+          v-if="activeDeck"
+          :chart-data="activeDeck.dataThreeMonth"
+        />
       </div>
     </div>
     <hr>

@@ -107,6 +107,9 @@ export default new Vuex.Store({
       console.log('go123');
       processEntries(state, input, 'dataMonth');
     },
+    SOCKET_KEENTHREEMONTHUPDATE: (state, input) => {
+      processEntries(state, input, 'dataThreeMonth');
+    },
   },
 
   actions: {},
