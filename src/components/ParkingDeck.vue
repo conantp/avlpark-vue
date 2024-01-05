@@ -4,7 +4,7 @@
     class="parking-deck"
     @click="toggleCharts()"
   >
-    <RouterLink :to="deckLink">
+    <!-- <RouterLink :to="deckLink"> -->
       <div class="parking-deck-spaces">
         <h2>
           <AnimatedCounter :value="parseInt(deck.available)" />
@@ -18,7 +18,7 @@
 
         <h1>{{ deck.name }}</h1>
       </div>
-    </RouterLink>
+    <!-- </RouterLink> -->
 
     <!-- <div class="chart-outer">
       <Transition name="bounce">

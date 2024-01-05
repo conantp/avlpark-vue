@@ -45,6 +45,52 @@ function processEntries(state, input, target) {
   });
 }
 
+async function getDataWithoutSocket(state){
+  console.log("update without socket");
+  var data_sources = [
+        {
+          url: "https://s3.amazonaws.com/avl-parking-decks/spaces.json",
+          last_modified: false
+        },
+        {
+          url: "https://s3.amazonaws.com/bc-parking-decks/164College",
+          last_modified: false
+        },
+        {
+          url: "https://s3.amazonaws.com/bc-parking-decks/40Coxe",
+          last_modified: false
+        }
+      ];
+
+      for (var i = 0; i < data_sources.length; i++) {
+        var data_source = data_sources[i];
+        var data = await fetch(data_source.url);
+
+        // Get the response data
+        var input = await data.json();
+
+        Object.entries(input.decks).forEach(([index, row]) => {
+          row.data = {};
+          row.dataLong = {};
+          row.dataWeek = {};
+          row.dataMonth = {};
+          row.available = parseInt(row.available, 10);
+
+          const existingDeckIndex = state.decks.findIndex(deck => deck.name === row.name);
+
+          const existingDeck = state.decks.find(deck => deck.name === row.name);
+          // console.log(row.available, existingDeck);
+          if (existingDeck) {
+            existingDeck.available = row.available;
+            existingDeck.last_modified = row.last_modified;
+            Vue.set(state.decks, existingDeckIndex, existingDeck);
+          } else {
+            state.decks.push(row);
+          }
+        });
+      }
+};
+
 export default new Vuex.Store({
   state: {
     decks: [],
@@ -88,27 +134,32 @@ export default new Vuex.Store({
 
       // state.decks = state.decks.sort((a, b) => a.name > b.name);
     },
-    SOCKET_CONNECT: (state, status) => {
+    SOCKET_CONNECT: async (state, status) => {
       console.log('socket connect', status);
       state.connect = true;
+
+      getDataWithoutSocket(state);
+      // Call getDataWithoutSocket every 60 seconds
+      setInterval(function(){ getDataWithoutSocket(state); }, 30000);
+
     },
     SOCKET_KEENUPDATE: (state, input) => {
       console.log('keen update 123');
-      processEntries(state, input, 'data');
+      // processEntries(state, input, 'data');
     },
     SOCKET_KEENLONGUPDATE: (state, input) => {
-      processEntries(state, input, 'dataLong');
+      // processEntries(state, input, 'dataLong');
     },
     SOCKET_KEENWEEKUPDATE: (state, input) => {
       console.log('keen week');
-      processEntries(state, input, 'dataWeek');
+      // processEntries(state, input, 'dataWeek');
     },
     SOCKET_KEENMONTHUPDATE: (state, input) => {
       console.log('go123');
-      processEntries(state, input, 'dataMonth');
+      // processEntries(state, input, 'dataMonth');
     },
     SOCKET_KEENTHREEMONTHUPDATE: (state, input) => {
-      processEntries(state, input, 'dataThreeMonth');
+      // processEntries(state, input, 'dataThreeMonth');
     },
   },
 
