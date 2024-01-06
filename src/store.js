@@ -143,7 +143,7 @@ export default new Vuex.Store({
 
       getDataWithoutSocket(state);
       // Call getDataWithoutSocket every 60 seconds
-      setInterval(function(){ getDataWithoutSocket(state); }, 30000);
+      setInterval(function(){ getDataWithoutSocket(state); }, 10000);
 
     },
     SOCKET_KEENUPDATE: (state, input) => {
