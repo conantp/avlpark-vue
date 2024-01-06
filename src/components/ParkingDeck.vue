@@ -67,7 +67,7 @@ export default {
       // return this.$store.state.showCharts;
     },
     deckImage() {
-      if (this.deck.name === '11 Sears Alley' || this.deck.name === 'College Street') {
+      if (this.deck.name === 'Coxe/Sears Alley' || this.deck.name === 'College Street') {
         return BC_IMAGE;
       }
 
