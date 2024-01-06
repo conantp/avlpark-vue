@@ -112,6 +112,9 @@ export default new Vuex.Store({
     SOCKET_SPACESUPDATE: (state, input) => {
       console.log('spaces1', input);
 
+      // PRC 01.2024
+      return;
+
       Object.entries(input.decks).forEach(([index, row]) => {
         row.data = {};
         row.dataLong = {};
